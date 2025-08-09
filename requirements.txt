@@ -1,5 +1,31 @@
+# Core app and UI
 streamlit
+
+# NLP & Embeddings
 sentence-transformers
+transformers
+torch
+
+# Data processing & math
 numpy
 pandas
 scikit-learn
+
+# Visualizations
+matplotlib
+seaborn
+
+# Utilities & extras
+python-dateutil
+
+# Development & notebook
+jupyter
+notebook
+
+# App UI
+streamlit
+
+# Embeddings / NLP
+sentence-transformers
+transformers
+torch
