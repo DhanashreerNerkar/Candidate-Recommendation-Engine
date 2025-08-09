@@ -1,0 +1,367 @@
+ResumeID: resume-1
+Candidate Name: Wesley Chen
+
+Education 1:
+  University/College: University of California, San Diego
+  Degree: M.S. Electrical Engineering (Computer Engineering)
+  Field: Computer Engineering
+  Duration: September 2021 – Anticipated June 2022
+
+Education 2:
+  University/College: University of California, San Diego
+  Degree: B.S. Computer Engineering | Music Minor
+  Field: Computer Engineering, Music
+  Duration: September 2017 – June 2021
+  GPA: 3.91
+
+Experience 1:
+  Company: Snap Inc.
+  Position: Software Engineering Intern, Snap AI Platform
+  Duration: June 2021 – September 2021
+  Work Description:
+    - Worked in Python to improve the ML data pipeline by investigating performance of training data file formats and libraries.
+    - Showed that consuming Parquet file format over TFRecord file format can bring up to 25x I/O efficiency gains in pipeline.
+    - Produced POCs to replace an intermediate transformation module, proving significant reduction in storage and CPU cost.
+  Skills: Python, ML, Data Pipeline
+
+Experience 2:
+  Company: Snap Inc.
+  Position: iOS Software Engineering Intern, Games/Minis Features
+  Duration: June 2020 – September 2020
+  Work Description:
+    - Worked in Objective-C for iOS to develop features and fix bugs in the Games/Minis Platform on the Snapchat application.
+    - Onboarded Snippets (Games/Minis stickers) to a new internal framework to allow for saving Snippets to Memories.
+    - Implemented game share optimizations of pre-selecting recipients in share flow, resulting in increased share volume by 20%.
+    - Developed new unified share card design for Games/Minis available to the 200+ million daily active users of Snapchat.
+    - Implemented the Games/Minis Tray (rocket icon) button with deep linking functionality available in user profile chat bars.
+  Skills: Objective-C, iOS, Snapchat
+
+Experience 3:
+  Company: Amazon.com
+  Position: Software Development Engineering Intern, Chaos Engineering
+  Duration: June 2019 – September 2019
+  Work Description:
+    - Developed using Java Agents a new method of binding Gremlin application-level failure injection types to services, reducing burden to onboard services with Gremlin by 90% (10 hours to 1 hour), providing a total savings of 1.5k+ developer hours.
+    - Contributed to development in maintenance and addition of new features of Chaos Engineering.
+    - Contributed to internal Java Agent framework utilized across the company (AWS X-Ray, internal tooling, testing).
+  Skills: Java, Chaos Engineering
+
+Experience 4:
+  Company: Vocera Communications
+  Position: Intern, Test Engineer
+  Duration: June 2018 – September 2018
+  Work Description:
+    - Improved 25+% performance of the Selenium/Python test suite for the Web Console automation Agile Scrum project.
+    - Developed new Selenium/Python automation scripts for testing Web Console and Voice Server interactions on Windows OS.
+    - Designed and developed Voice Command Locale Pack Tool for test engineering; first tool to support different Locale Packs.
+    - As assistant to SW Director, developed Excel VBA automated visualization and analytics from JIRA bug tracking dataset.
+  Skills: Selenium, Python, VBA
+
+Projects: None listed in this resume.
+
+---
+
+ResumeID: resume-2
+Candidate Name: Jinshuang Niu
+
+Education 1:
+  University/College: Northeastern University, Seattle, WA
+  Degree: M.S. in Computer Software Engineering
+  Field: Computer Software Engineering
+  Duration: May 2021 – May 2023
+  GPA: 3.8
+
+Experience 1:
+  Company: Accolade, Inc.
+  Position: Software Engineer
+  Duration: June 2023 – Present (1 yr 9 mos)
+  Work Description:
+    - Designed and deployed a terminology service to replace an unreliable, race condition-prone system, integrating healthcare terminologies with HL7 FHIR standards and implementing Java clients for code validation.
+    - Developed RESTful APIs with Spring Boot WebFlux/Servlet, enabling efficient searches with sorting and aggregation using DynamoDB HashKey/SortKey, GSI, and Elasticsearch indexes.
+    - Established secure inter-service communication using API Gateway and SNS/SQS pub-sub system.
+    - Automated partner file ingestion via GoAnywhere, Spark, and SNS/SQS, reducing engineering workload significantly.
+    - Migrated 3.2 million records (6 GiB) to production databases with optimized search functionality and cutover traffic with close monitoring.
+    - Decommissioned an obsolete Elasticsearch cluster, saving over $100K annually by developing a reusable asynchronous Just-In-Time (JIT) data load pipeline to remove outdated data, perform JIT loading, and transition to higher-performing OpenSearch Domain and instances.
+    - Enhanced AWS Lambda for multi-service event routing and robust event receipt for reliable data delivery.
+    - Led AWS OpenSearch Domain setup and library upgrades to replace Elasticsearch, introducing advanced sorting and aggregation with new search contracts that boosted query efficiency by 50%.
+    - Built a scalable DynamoDB Streams → EventBridge → SQS → OpenSearch Cluster pipeline to auto-remove outdated records to increase performance and reduce cost.
+    - Collaborated with the team to design and implement an asynchronous data pipeline, unifying different sections for healthcare resource integration between Salesforce and internal systems.
+    - Implemented and utilized Java clients for JWT based Authentication and Health Cloud API to enable secure and seamless healthcare data transaction.
+    - Led team in a company-wide hackathon project to configure a chatbot integrated with Einstein AI within a Lightning App, enabling nurses to access patient data from previous records and documents directly.
+  Skills: Java, Spring Boot, DynamoDB, AWS, Salesforce, API
+
+Experience 2:
+  Company: Climate LLC
+  Position: Full-stack Software Engineer Intern
+  Duration: May 2022 – Aug 2022 (3 mos)
+  Work Description:
+    - Designed and built a terminal system to show permissions and resources hierarchy using Python Flask.
+    - Developed RESTful APIs for JWT generation based on OAuth2 standards.
+    - Created a user-interactive front-end interface using React and TypeScript.
+    - Implemented unit tests in PyTest with 100% code coverage and deployed services via GitLab CI/CD.
+  Skills: Python, Flask, React, TypeScript, PyTest, OAuth2
+
+Project 1:
+  Project Name: Task Management & Microservice Architecture Design
+  Duration: Not listed
+  Project Description:
+    - Designed and deployed a cloud-native ecosystem using Kubernetes and AWS, performance test to support up to 10,000 users with automated scaling.
+    - Automated infrastructure setup with Terraform, Ansible and kOps, provisioning 3+ VPCs, RDS instances, and a private Kubernetes cluster.
+    - Built and containerized 5+ microservices using Docker, deployed with Helm charts, and integrated with Kafka capable of asynchronous processing of 1,000+ messages/hour.
+    - Utilized init containers to prepare application environments, including running data migrations to ensure seamless upgrades and consistency.
+    - Secured application endpoints with NGINX ingress and cert-manager, provisioning SSL certificates via Let’s Encrypt.
+    - Deployed Prometheus/Grafana to monitor system metrics and EFK (ElasticFluentdKibana) for centralized logging.
+    - Configured Elasticsearch for indexing documents, enabling real-time search with <1S response times.
+  Skills: Kubernetes, AWS, Terraform, Ansible, Docker, Kafka, Elasticsearch
+
+---
+
+ResumeID: resume-3
+Candidate Name: Aparna Suresh
+
+Education 1:
+University/College: Purdue University, West Lafayette, IN
+Degree: Master of Science in Computer Science
+Field: Computer Science
+Duration: May 2023
+GPA: 3.88/4.0
+
+Education 2:
+University/College: PES University, Bangalore, India
+Degree: BTech in Computer Science and Engineering
+Field: Computer Science and Engineering
+Duration: August 2020
+GPA: 9.53/10
+
+Experience 1:
+Company: NVIDIA
+Position: Software Engineering Intern, Apache Spark
+Duration: May 2022 - Aug 2022
+Work Description:
+- Developed a unix command line tool to identify operations that couldn’t run on GPU from Spark query plans.
+- Enhanced the tool to retain only the most important operations by pruning the trees based on filters; users can provide custom filters.
+- Evaluated and improved performance of RAPIDS Spark plugin by analyzing event logs and query plans to pinpoint and resolve bottlenecks.
+Skills: Python, Spark, RAPIDS, GPU, Log Analysis
+
+Experience 2:
+Company: LogMeIn
+Position: Associate Software Engineer, Big Data
+Duration: Jan 2020 - Jul 2021
+Work Description:
+- Developed an extraction framework in Python for ingesting data incrementally from relational data sources (MSSQL, ORACLE) to AWS S3.
+- Built custom operators in Python to schedule Spark, Pig, Hive jobs on Airflow.
+- Decoupled submission of Spark jobs from AWS EMR clusters through Genie.
+- Developed a parser to migrate Oozie workflows to Airflow, saving 70% of team’s migration effort.
+- Implemented a framework to ingest data from Salesforce via Informatica and dynamically create Hive tables, handling changing table schema.
+Skills: Python, Airflow, AWS S3, Data Engineering
+
+Experience 3:
+Company: Morgan Stanley
+Position: Associate Software Intern
+Duration: Jun 2019 - Jul 2019
+Work Description:
+- Built a custom SQL parser in Java that transforms SQL queries into a tree structure for stakeholders.
+- Developed a REST API service to add, modify, delete parsed SQL queries.
+- Used Java Hibernate ORM Mapping, Spring, Hazelcast Distributed Cache, Java CXF, Swagger.
+Skills: Java, SQL, REST API, ORM, Spring
+
+Project 1:
+Project Name: Distributed Systems – Sharded Key-Value Store
+Duration: Not listed
+Project Description:
+- Developed a strongly consistent sharded key-value store with multi-key updates, similar to Google’s Spanner.
+- Capable of handling 1K+ concurrent operations.
+- Implemented dynamic load balancing, RPC, primary-backup replication, Paxos, sharding, and two-phase commit.
+Skills: Java, Distributed Systems, RPC, Paxos, Sharding
+
+Project 2:
+Project Name: Operating Systems – XINU, x86, Solaris
+Duration: Not listed
+Project Description:
+- Developed core components of a modern OS in XINU with x86 architecture.
+- Built a Solaris-based dynamic priority scheduler, serializable message-passing IPC, a VM unit, and system calls for VM allocation.
+- Used C and assembly.
+Skills: Operating Systems, C, Assembly, Scheduling, VM Management
+
+---
+
+ResumeID: resume-4
+Candidate Name: Prashant Gupta
+
+Education 1:
+University/College: San Jose State University
+Degree: Master of Science in Software Engineering
+Field: Software Engineering
+Duration: August 2023 – May 2025
+GPA: 3.9/4.0
+
+Experience 1:
+Company: Accenture Solutions Pvt. Ltd
+Position: Software Engineer
+Duration: January 2023 – July 2023
+Work Description:
+- Co-designed a Big Data strategy utilizing Cassandra, MongoDB, and Hive, reducing query times by 30% and improving data processing efficiency.
+- Leveraged Apache Spark for customer behavior analysis and developed Tableau dashboards, increasing customer retention by 20% and boosting average order value.
+- Collaborated on developing a Kafka-Spark streaming pipeline, enhancing data processing speed by 40% and improving trend prediction accuracy.
+Skills: Cassandra, MongoDB, Hive, Spark, Tableau, Kafka
+
+Project 1:
+Project Name: TalentTrek: AI-Powered Career Companion
+Duration: Not listed
+Project Description:
+- Architected a microservices platform on AWS with decoupled Next.js frontend and FastAPI backend.
+- Built ETL pipeline using Python, Selenium, Pandas to ingest/process 10,000+ unstructured job postings daily.
+- Built AI mock interviewer, resume customization feature, and integrated AWS Cognito/JWTs for secure authentication.
+Skills: Python, Next.js, FastAPI, AWS, LLM, Pandas
+
+Project 2:
+Project Name: Integrative Machine Learning Applications
+Duration: Not listed
+Project Description:
+- Used NLP, SVM, Sentence-BERT, LDA, and transformers for semantic analysis, poetry comprehension, topic modeling, and style transfer.
+- Simulated Uber driver allocation, advanced pricing/personalized service models, and applied SMOTE for data imbalance.
+Skills: Python, NLP, SVM, Transformers, Clustering
+
+Project 3:
+Project Name: Detection of Defects in Computer Chips and MLOps
+Duration: Not listed
+Project Description:
+- Developed CNN for defect detection, managed class imbalance, and applied AzureML and MLflow for training and management.
+- Achieved 93% final model accuracy.
+Skills: CNN, TensorFlow, MLflow, AzureML
+
+Project 4:
+Project Name: AI Interviewer
+Duration: Not listed
+Project Description:
+- Built Gen AI coach, RAG pipeline for resume analysis, and integrated OpenAI Whisper and AWS Polly for real-time audio/text feedback.
+Skills: Python, OpenAI, AWS, FAISS
+
+---
+
+ResumeID: resume-5
+Candidate Name: Harini S.
+
+Education 1:
+University/College: Northeastern University
+Degree: Master of Science in Data Science
+Field: Data Science
+Duration: Expected May 2026
+GPA: 3.84/4.0
+
+Education 2:
+University/College: Velammal Engineering College
+Degree: Bachelor of Engineering in Computer Science
+Field: Computer Science
+Duration: May 2019 – June 2023
+GPA: 9.07/10
+
+Experience 1:
+Company: Northeastern University
+Position: Graduate Teaching Assistant
+Duration: May 2025 - Present
+Work Description:
+- Supported 80+ students in DS 2000: Programming with Data, focusing on Python applications in data science.
+- Led lab sessions and provided guidance on Pandas, Matplotlib, Seaborn, file handling for real-world data manipulation and visualization.
+Skills: Python, Pandas, Matplotlib, Seaborn
+
+Experience 2:
+Company: Unified Mentor
+Position: Data Scientist
+Duration: Jun 2024 – Aug 2024
+Work Description:
+- Architected end-to-end ETL pipelines using Python (Pandas, PySpark), SQL, and Snowflake to automate data ingestion from APIs, databases, and flat files.
+- Improved data integrity and reduced processing time by 40%.
+- Engineered scalable data infrastructure with AWS Glue, Delta Lake, and Redshift.
+- Developed and deployed machine learning models to predict business disruptions, reducing impact by 12%.
+- Built dashboards with Tableau, Power BI, and Plotly, leading to 15% increase in data-driven decisions.
+Skills: Python, PySpark, SQL, Snowflake, Tableau, Power BI
+
+Experience 3:
+Company: Kaar Technologies
+Position: Data Scientist
+Duration: Aug 2022 – May 2024
+Work Description:
+- Processed millions of records using Apache Spark and PySpark, achieving 3× speedup in data transformation.
+- Built and maintained data models/schemas within Snowflake and Hive, optimizing analytics/ML workloads.
+Skills: Apache Spark, PySpark, Snowflake, Hive
+
+Project 1:
+Project Name: Semantic Resume Matching System
+Duration: Not listed
+Project Description:
+- Built a resume-job matching model using LLaMA, FAISS, and RAG, improving match relevance by 40% with SentenceTransformer embeddings and RAG-style justifications.
+Skills: LLaMA, FAISS, SentenceTransformer, RAG
+
+Project 2:
+Project Name: Cloud-Native Delta Lake Development
+Duration: Not listed
+Project Description:
+- Developed Delta Lake pipeline integrating structured/unstructured data with AWS Glue, S3, and Redshift.
+- Ensured ACID compliance and secure access.
+Skills: Delta Lake, AWS Glue, S3, Redshift
+
+Project 3:
+Project Name: Toxicity Detection in Multiplayer Game Chats
+Duration: Not listed
+Project Description:
+- Built a toxicity detection model using DistilBERT and PyTorch, achieving 88% F1-score, optimized with T5Tokenizer, early stopping, hyperparameter tuning.
+- Engineered data pipeline with Python, AWS S3, enabling real-time chat analysis.
+Skills: DistilBERT, PyTorch, T5Tokenizer, AWS S3
+
+---
+
+ResumeID: resume-6
+Candidate Name: Shruti Verma
+
+Education 1:
+University/College: University of Texas at Austin
+Degree: Master of Science in Computer Science
+Field: Computer Science
+Duration: August 2022 – May 2024
+GPA: Not listed
+
+Education 2:
+University/College: Vellore Institute of Technology
+Degree: Bachelor of Technology in Computer Science and Engineering
+Field: Computer Science and Engineering
+Duration: July 2018 – June 2022
+GPA: Not listed
+
+Experience 1:
+Company: Amazon Web Services (AWS)
+Position: Software Development Engineer Intern
+Duration: May 2023 – August 2023
+Work Description:
+- Designed and developed scalable microservices in Java for AWS Lambda team, improving processing throughput.
+- Automated deployment pipelines with AWS CDK, reducing deployment times by 50%.
+- Built dashboards for operational metrics, resulting in 30% faster issue resolution.
+Skills: Java, Microservices, AWS Lambda, AWS CDK
+
+Experience 2:
+Company: Dell Technologies
+Position: Software Engineer
+Duration: July 2022 – May 2023
+Work Description:
+- Developed features for Dell EMC storage systems, optimizing performance of large-scale distributed storage.
+- Led bug fixes and performance enhancements that reduced customer incidents by 20%.
+- Collaborated with cross-functional teams to deliver product releases.
+Skills: Distributed Systems, Storage, C++, Performance Optimization
+
+Project 1:
+Project Name: Real-Time Event Processing Platform
+Duration: Not listed
+Project Description:
+- Built an event processing platform using Apache Kafka, Spark Streaming, and Docker.
+- Enabled real-time data analytics and alerting for enterprise clients.
+Skills: Kafka, Spark Streaming, Docker
+
+Project 2:
+Project Name: Secure Document Management System
+Duration: Not listed
+Project Description:
+- Developed a secure document management system using Spring Boot and React.
+- Implemented encryption and granular access control for enterprise security.
+Skills: Spring Boot, React, Security
+
+
