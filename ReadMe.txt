@@ -95,11 +95,16 @@ Possible Improvements
 2. Contextual Project Relevance — Weight projects higher if they match specific high-priority job responsibilities.
 3. 1-1 job Responsibility search in exp/project/publication is can improve scoring over entire job_desc <-> full exp/proj/pub desc match.
 --------------------------------------------------------------------------------------------------------------
-The unimplemented! 
+The Unimplemented! 
 1. logic to add publication, Volunteering and Awars-Honours in addition to the existing feature on which scoring is done
 2. Candidates with matching publications can be give extra bonus points over candidates having similar score or rank.
 3. Candidates whos profile show any voluntering expereicne can be considered if required by the job to bump up their rank by one/actual score-rank
 4. People with awars, honor, own startups, or woking on any exceptional idea can be considered as unique candidates. even if their rank if ever little less/profile is less a match can be considered for their work(they can be highlighted to gold colur for bearing unique profile: just as an HR does!! :))
+
+Method 2: scoring thru for Colbert + FAISS
+convert section wise embessing to thru colvert and save it to FAISS for indesxing them.
+while ranking/scoring compare the job embeddings with the candidate jobs and to calculate section scores
+weight them section wise scoring and then calculate over all scores <-> ranks
 
 ---------------------------------------------------------------------------------------------------------------
 Logics/Approaches:
@@ -109,3 +114,4 @@ Excluding self-reported skills from scoring to avoid keyword stuffing bias.
 Renormalizing weights if some metrics are missing, avoiding unfair penalties.
 
 Breaking down the pipeline into multiple analysis checkpoints (charts, graphs, heatmaps after each stage); used them to improve code logic and recalculate scores
+
